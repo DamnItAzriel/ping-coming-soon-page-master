@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 20px 0px 10px 0px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+.copyright { font-size: 11px;}
+*{
+    box-sizing: border-box;
+}
+body{
+    font: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 375px;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    margin: 0 auto;
+}
+.header{
+    font-size: 24px;
+     margin-bottom: 20px;
+}
+.subscribe{
+    /* color: hsl(209, 33%, 12%); */
+    color: black;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+div span{
+    font-weight: bold;
+    color: hsl(209, 33%, 12%);
+}
+.illustration-dash{
+    margin-bottom: 150px;
+}
+.illustration-dash img{
+    width: 325px;
+}
+
+.social-media{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+/* .social-media img{
+    font-size: 5px;
+    width: 15px;
+    background-color: hsl(209, 33%, 12%);
+    background-color: hsl(223, 100%, 88%);
+    border: 1px solid hsl(0, 0%, 59%);
+} */
+/* #fb #insta #twitter{
+    color: hsl(223, 100%, 88%);
+} */
+
+/* .social-media i{
+    border: 1px solid hsl(0, 0%, 59%);
+   
+} */
+i {
+    border: 1px solid  hsl(223, 100%, 88%);
+    padding: 5px;
+    border-radius: 50%;
+    width: 25px;
+    margin-right: 10px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 275px;
+    padding: 10px 25px;
+    margin: 0px 25px 0px 25px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 25px;
+    color: hsl(0, 0%, 59%);
+}
+
+input[type="submit"]{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+.logo {
+    /* max-height: 20px; */
+    margin: 100px 0px 50px 0px;
+}
+.logo img{
+    height: 20px;
+    width: 70px;
+}
+/* .header {
+    margin-bottom: 20px;
+    font-size: 18px;
+} */
