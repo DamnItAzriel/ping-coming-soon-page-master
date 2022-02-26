@@ -125,7 +125,7 @@ input[type="submit"]{
     margin-bottom: 20px;
     font-size: 18px;
 } */
-.feedback{
+#feedback{
     font-size: 10px;
     color: hsl(354, 100%, 66%);
     padding-top: 5px;
@@ -212,7 +212,7 @@ span a {
         float: left;
         overflow: auto;
     } */
-    .feedback{
+    #feedback{
         /* font-size: 10px;
         color: hsl(354, 100%, 66%);
         padding-top: 5px;
@@ -220,4 +220,13 @@ span a {
         text-align: left; */
         margin-left: 145px;
     }
+    /* .error {
+        border-color: hsl(354, 100%, 66%);
+    }
+    .ok {
+        border-color: hsl(223, 100%, 88%);
+    }
+    input[type="text"]:focus + .error{
+        border-color: hsl(354, 100%, 66%);
+    } */
 }

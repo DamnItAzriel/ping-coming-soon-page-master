@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
   <link rel="stylesheet" href="style.css">
+  
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -32,12 +33,13 @@
       </p>
     </div>
     <div class="notify">
-        <input type="text" placeholder="Your email address...">
+        <input type="text" placeholder="Your email address..." id="email">
         <!-- <br>  -->
-        <div class="feedback">Please provide a valid email address</div>
+        <!-- Please provide a valid email address -->
+        <div id="feedback"></div>
     </div>
-    <div class="submitBtn">
-        <input type="submit" value="Notify Me">      
+    <div id="submitBtn">
+        <input type="submit" value="Notify Me" id="submitEmail">      
     </div>
     <div class="illustration-dash">
       <img src="/images/illustration-dashboard.png" alt="illustration-dashboard">
@@ -76,5 +78,6 @@
       Coded by <a href="https://twitter.com/DamnItAzriel">Pankaj Pawar</a>.
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
